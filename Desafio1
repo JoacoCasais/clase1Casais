@@ -1,0 +1,8 @@
+//Simulador donde se le pide el nombre y la edad al user y despues se le indica lo ingresado.
+let name = prompt("Ingrese su nombre")
+
+let age = Number(prompt("Ingrese su edad"))
+
+console.log(`${name} usted indicó que tiene ${age} años`)
+
+alert(name + ", indicaste que tienes " + age + " años")
